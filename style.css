@@ -1,0 +1,574 @@
+body{
+     margin:0px 50px;
+     background-color:#E2DEDA;
+}
+
+
+.wrapper{
+         width:100%;
+         height:150px;
+         float:left;
+        
+         background-image:url(logo-site.png),linear-gradient(to right,green,white,green);
+         background-repeat:no-repeat;
+         border-top-width:5px;
+         border-top-style:solid;
+         border-top-color:rgba(0,255,0,.50);
+         border-bottom-width:5px;
+         border-bottom-style:solid;
+         border-bottom-color:red;
+}
+.menu{
+      width:100%;
+      height:50px;
+      background-color:#5BB53B;
+      float:left;
+      
+}
+.menu ul li{
+      display:inline;
+      Font-family:Arial;
+      padding-left:20px;
+      text-align:center;
+      font-size:20px;
+      color:white;  
+      
+   
+}
+.content{
+          width:100%;
+          height:40px;
+          background-color:#D3D4D5;
+          float:left;
+          margin-top:10px;
+         
+}
+.content ul li{
+               list-style-image:url(icon.png);
+                width:80px;
+                text-align:center;
+              
+                
+}
+.content ul{
+           display:inline-block;
+       
+}
+
+    
+
+marquee{
+        width:1000px;
+        direction:right;
+        
+       
+         
+}
+.con{
+          width:75%;
+          height:300px;
+          background-color:white;
+          float: left;
+          margin-top:10px;
+    
+       
+    
+}
+h2{
+   font-weight:bold;
+   padding-left:10px;
+   background-color:green;
+   color:white;
+   
+       
+}
+.con h2{
+        margin:0px;
+        padding:10px;
+}
+
+       
+        
+        
+
+.con img{
+         width:400px;
+         height:200px;
+         margin-top:10px;
+         margin-left:10px;
+}
+.side1{
+    width:250px;
+      height:60px;
+      background-color:red;
+      float:right;
+      border:1px solid black;
+      border-radius:4px;
+      margin:10px;
+}
+.side2{
+      width:250px;
+      height:60px;
+      background-color:green;
+      float:right;
+      border:1px solid black;
+      border-radius:4px;
+      margin:10px;
+}
+.side3{
+       width:250px;
+      height:60px;
+      background-color:red;
+      float:right;
+      border:1px solid black;
+      border-radius:4px;
+      margin:10px;
+      clear: both;
+}
+.principle{
+           width:400px;
+           height:250px;
+           float:left;
+           background-color:#ffff;
+}
+.principle h2{
+              margin-top:0px;
+}
+.principle img{
+               padding:10px;
+}
+.vice{
+           width:400px;
+           height:250px;
+           float:left;
+           margin-left:5px;
+           background-color:#ffff;
+      
+}
+.vice h2{
+          margin-top:0px;
+         
+}
+.vice img{
+          width:200px;
+          height:150px;
+          padding:5px;
+}
+.notice{
+        width:250px;
+        height:300px;
+        float:right;
+        background:#ffff;
+        margin-right:10px;
+        border:2px solid white;
+        border-radius:8px;
+       
+        
+}
+.notice h2{
+           margin-top:0px;
+}
+.notice p{
+          width:250px;
+          height:200px;
+         
+}
+.frame{
+       width:850px;
+       height:400px;
+       float: left;
+       background:#ffff;
+       margin-top:20px;
+}
+.frame h2{
+          margin-top:0px;
+}
+     
+      
+.frame iframe{
+               margin:10px;
+}
+.link{
+      width:250px;
+      height:300px;
+      float:right;
+      background-color:white;
+      margin-right:10px;
+      border:5px solid white;
+      border-radius:5px;
+      margin-top:5px;
+}
+.link h2{
+         margin-top:0px;
+}
+.link ul li{
+            list-style-image: url(download%20icon.png);
+            line-height:40px;
+}
+.link a{
+        text-decoration-line: none;
+        color:black;
+} 
+.fb{
+    width:255px;
+    height:90px;
+    background:red;
+    float:right;
+    clear:right;
+    margin-right:10px;
+    margin-top:10px;
+    border:3px solid white;
+    border-radius:4px;
+}
+.web{
+     width:255px;
+     height:30px;
+     background:#ffff;
+     box-sizing:border-box;
+   
+     border-bottom:3px solid black;
+    
+   
+     
+     
+}
+.web img{
+         padding-left:5px;
+         padding-top:3px;
+         
+}
+.web p{
+        display:inline;
+        font-family:Arial;
+}
+.web1{
+     width:255px;
+     height:30px;
+     background:#ffff;
+     box-sizing:border-box;
+   
+     border-bottom:3px solid black;
+    
+   
+     
+     
+}
+.web1 img{
+         padding-left:5px;
+         padding-top:3px;
+         
+}
+.web1 p{
+        display:inline;
+        font-family:Arial;
+}
+.web2{
+     width:255px;
+     height:30px;
+     background:#ffff;
+     box-sizing:border-box;
+   
+     border-bottom:3px solid black;
+    
+   
+     
+     
+}
+.web2 img{
+         padding-left:5px;
+         padding-top:3px;
+         
+}
+.web2 p{
+        display:inline;
+        font-family:Arial;
+}
+
+.photo{
+        width:100%;
+        height:100px;
+        float:left;
+        background-color:#ffff;
+        border:1px solid white;
+        border-radius:5px;
+}
+.photo h2{
+          margin:0px;
+          height:50px;
+          padding-top:10px;
+          box-sizing: border-box;
+          
+}
+.cal{
+     width:347px;
+     height:372px;
+     float:left;
+     background:red;
+     margin:10px;
+}
+.cal1{
+      width:347px;
+      height:25px;
+      background:green;
+}
+.cal1 h4{
+         display:inline;
+         color:white;
+        
+          
+}
+.map{
+     width:347px;
+     height:372px;
+     float:left;
+     background:red;
+     margin:10px;
+    
+}
+.map1{
+      width:347px;
+      height:30px;
+      background:green;
+}
+.map1 img{
+      padding-top:4px;
+      box-sizing: border-box;
+      height:25px;
+     
+}
+.map1 h2{
+         display:inline;
+         padding-left:0px;
+        
+}
+.contract{
+          
+       width:347px;
+       height:372px;
+       float:left;
+        background:#ffff;
+        margin:10px;
+      
+}
+.contract1{
+          width:347px;
+          height:30px;
+          background:green;
+          
+}
+.contract1 img{
+                 padding-top:5px;
+                 box-sizing: border-box;
+                 height:25px;
+} 
+.contract1 h2{
+           display:inline;
+           padding-left:0px;
+}
+.line{
+      width:290px;
+      height:1px;
+      background-color:black;
+      margin-left:30px;
+      margin-top:50px;
+}
+.contract p{
+            padding-top:20px;
+            padding-left:20px;
+          
+}
+.contract p span{
+                 color:green;
+                 
+                 font-size:40px;
+    
+    
+}
+.contract small a{
+         padding:40px;
+}
+.footer{
+        width:100%;
+        height:60px;
+        border-top:3px solid red;
+        background:green;
+        float:left;
+}
+.footer p{
+        padding-left:50px;
+        display:inline;
+        
+}
+.footer img{
+            float:right;
+            padding-top:15px;
+            padding-right:15px;
+            
+}
+         
+
+       
+         
+          
+        
+         
+    
+    
+                     
+                            
+
+
+
+
+/*.side{
+      width:250px;
+      height:60px;
+      background-color:red;
+      float:right;
+      border:1px solid black;
+      border-radius:4px;
+      margin:10px;
+}
+ p{
+       box-sizing: border-box;
+       padding-left:10px;
+       color:white;
+}
+.side1{
+      width:250px;
+      height:60px;
+      background-color:red;
+      float:right;
+      border:1px solid black;
+      border-radius:4px;
+      margin:10px;
+    
+}
+.side1 p{
+         color:white;
+          box-sizing: border-box;
+           padding-left:10px;
+}
+.side2{
+       width:250px;
+       height:60px;
+       float:right;
+       background-color:red;
+       border-radius:4px;
+       border:1px solid black;
+       margin:10px;
+
+        
+}
+.side3{
+       width:250px;
+       height:60px;
+       float:right;
+       background-color:green;
+       border-radius:4px;
+       border:1px solid black;
+       margin:10px;
+}
+.side4{
+       width:250px;
+       height:60px;
+       float:right;
+       background-color:red;
+       border-radius:4px;
+       border:1px solid black;
+       margin:10px;
+       
+       box-sizing: border-box;
+   
+     
+}
+.box1{
+      width:400px;
+      height:220px;
+      float:left;
+      background-color:#FFFFFF;
+}
+.box1 h3{
+         background-color:green;
+         margin:0px;
+         padding:5px;
+         
+}
+.box1 img{
+          padding:5px;
+          display:inline-block;
+}
+.box1 a {
+         text-decoration-line:none;
+         
+}
+.box2{
+      width:400px;
+      height:220px;
+      float:right;
+      margin-top:1px;
+      margin-left:10px;
+      background-color:#FFFFFF;
+}
+.box2 h3{
+         background-color:green;
+         margin:0px;
+         padding:5px;
+}
+.box2 img{
+          width:180px;
+          height:170px;
+          padding:5px;
+          display:inline-block;
+
+}
+.aside{
+       width:250px;
+       height:200px;
+       float:left;
+       background-color:#ffff;
+       border:1px solid black;
+       border-radius:6px;
+       margin-left:95px;
+       
+    
+    
+}
+.aside p{
+         height:40px;
+         font-family:impact;
+         font-size:16px;
+         background-color:green;
+         margin:0px;
+         padding-top:8px;
+         box-sizing: border-box;
+}
+.aside ul li{
+             list-style-image: url(pdf.png);
+           
+}
+.aside ul li a{
+             text-decoration: none;
+             line-height:20px;
+             color:black;
+ }
+.iframe{
+        width:810px;
+        height:300px;
+       
+        background-color:#ffff;
+        float:left;
+        margin-top:20px;
+}
+.iframe h2{
+           background-color: green;
+           height:40px;
+           padding-top:5px;
+        
+}
+.iframe iframe{
+               margin:10px;
+/*}
+
+
+
